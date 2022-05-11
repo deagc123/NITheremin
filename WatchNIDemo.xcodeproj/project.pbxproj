@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,7 @@
 		926AE9AA261CB44C00AD6746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AE9A9261CB44C00AD6746 /* Assets.xcassets */; };
 		926AE9B2261CB44C00AD6746 /* WatchNIDemo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 926AE9B1261CB44C00AD6746 /* WatchNIDemo WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		926AE9B7261CB44C00AD6746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AE9B6261CB44C00AD6746 /* Assets.xcassets */; };
-		926AE9BE261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 926AE9BD261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		926AE9BE261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 926AE9BD261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		926AE9C9261CB44D00AD6746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AE9C8261CB44D00AD6746 /* Assets.xcassets */; };
 		927897002642D66000A6C1EE /* WatchNIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA1657261CB4B900A6C24B /* WatchNIDemoApp.swift */; };
 		92BA1659261CB4B900A6C24B /* WatchNIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA1657261CB4B900A6C24B /* WatchNIDemoApp.swift */; };
@@ -40,15 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		926AE9D3261CB44D00AD6746 /* Embed App Extensions */ = {
+		926AE9D3261CB44D00AD6746 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				926AE9BE261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex in Embed App Extensions */,
+				926AE9BE261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		926AE9D7261CB44D00AD6746 /* Embed Watch Content */ = {
@@ -207,7 +207,7 @@
 			buildConfigurationList = 926AE9D4261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "WatchNIDemo WatchKit App" */;
 			buildPhases = (
 				926AE9AF261CB44C00AD6746 /* Resources */,
-				926AE9D3261CB44D00AD6746 /* Embed App Extensions */,
+				926AE9D3261CB44D00AD6746 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -243,7 +243,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					926AE9A1261CB44B00AD6746 = {
@@ -380,6 +380,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -440,6 +441,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

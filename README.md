@@ -1,7 +1,6 @@
-# Implementing Proximity-Based Interactions Between Devices
+# Implementing proximity-based interactions between a phone and watch
 
-Learn how to interact with a nearby device by measuring the distance between a 
-watch and a paired iPhone.
+Interact with a nearby Apple Watch by measuring its distance to a paired iPhone.
 
 ## Overview
 

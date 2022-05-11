@@ -17,10 +17,10 @@ enum Helper {
         let formatter = MeasurementFormatter()
         formatter.unitStyle = .medium
         formatter.unitOptions = .providedUnit
-        formatter.numberFormatter.alwaysShowsDecimalSeparator = false
+        formatter.numberFormatter.alwaysShowsDecimalSeparator = true
         formatter.numberFormatter.roundingMode = .ceiling
-        formatter.numberFormatter.maximumFractionDigits = 0
-        formatter.numberFormatter.minimumFractionDigits = 0
+        formatter.numberFormatter.maximumFractionDigits = 1
+        formatter.numberFormatter.minimumFractionDigits = 1
         return formatter
     }()
     

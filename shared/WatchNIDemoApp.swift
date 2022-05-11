@@ -21,7 +21,13 @@ struct WatchNIDemoApp: App {
     
     init() {
         /// NearbyInteraction is only supported on devices with a U1 chip.
-        if NISession.isSupported {
+        var isSupported: Bool
+        if #available(iOS 16.0, watchOS 9.0, *) {
+            isSupported = NISession.deviceCapabilities.supportsPreciseDistanceMeasurement
+        } else {
+            isSupported = NISession.isSupported
+        }
+        if isSupported {
             niManager = NearbyInteractionManager()
         }
     }
