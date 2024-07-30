@@ -55,10 +55,8 @@
       debugServiceExtension = "internal"
       enableGPUFrameCaptureMode = "1"
       allowLocationSimulation = "YES">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/WatchNIDemo">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "926AE9B0261CB44C00AD6746"
@@ -66,7 +64,7 @@
             BlueprintName = "WatchNIDemo WatchKit App"
             ReferencedContainer = "container:WatchNIDemo.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -74,10 +72,8 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/WatchNIDemo">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "926AE9B0261CB44C00AD6746"
@@ -85,16 +81,7 @@
             BlueprintName = "WatchNIDemo WatchKit App"
             ReferencedContainer = "container:WatchNIDemo.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "926AE9B0261CB44C00AD6746"
-            BuildableName = "WatchNIDemo WatchKit App.app"
-            BlueprintName = "WatchNIDemo WatchKit App"
-            ReferencedContainer = "container:WatchNIDemo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
