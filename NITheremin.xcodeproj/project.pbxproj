@@ -97,9 +97,9 @@
 			children = (
 				92BA1650261CB49600A6C24B /* README.md */,
 				92BA1651261CB49600A6C24B /* shared */,
-				926AE9A4261CB44B00AD6746 /* WatchNIDemo */,
-				926AE9B5261CB44C00AD6746 /* WatchNIDemo WatchKit App */,
-				926AE9C1261CB44D00AD6746 /* WatchNIDemo WatchKit Extension */,
+				926AE9A4261CB44B00AD6746 /* NITheremin */,
+				926AE9B5261CB44C00AD6746 /* NIThereminWatchKit App */,
+				926AE9C1261CB44D00AD6746 /* NITheremin WatchKit Extension */,
 				926AE9A3261CB44B00AD6746 /* Products */,
 				73898BEB1F94FFD1EDD37B82 /* Configuration */,
 				E84E6B34F00F6A73A90D76CA /* LICENSE */,
@@ -115,31 +115,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		926AE9A4261CB44B00AD6746 /* WatchNIDemo */ = {
+		926AE9A4261CB44B00AD6746 /* NITheremin */ = {
 			isa = PBXGroup;
 			children = (
 				926AE9A9261CB44C00AD6746 /* Assets.xcassets */,
 				926AE9AE261CB44C00AD6746 /* Info.plist */,
 			);
-			path = WatchNIDemo;
+			path = NITheremin;
 			sourceTree = "<group>";
 		};
-		926AE9B5261CB44C00AD6746 /* WatchNIDemo WatchKit App */ = {
+		926AE9B5261CB44C00AD6746 /* NIThereminWatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				926AE9B6261CB44C00AD6746 /* Assets.xcassets */,
 				926AE9B8261CB44C00AD6746 /* Info.plist */,
 			);
-			path = "WatchNIDemo WatchKit App";
+			path = "NIThereminWatchKit App";
 			sourceTree = "<group>";
 		};
-		926AE9C1261CB44D00AD6746 /* WatchNIDemo WatchKit Extension */ = {
+		926AE9C1261CB44D00AD6746 /* NITheremin WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				926AE9C8261CB44D00AD6746 /* Assets.xcassets */,
 				926AE9CD261CB44D00AD6746 /* Info.plist */,
 			);
-			path = "WatchNIDemo WatchKit Extension";
+			path = "NITheremin WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		92BA1651261CB49600A6C24B /* shared */ = {
