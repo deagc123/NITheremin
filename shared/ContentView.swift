@@ -1,14 +1,5 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-The main view that displays the distance to the paired device.
-*/
-
 import SwiftUI
 
-/// The main view that displays connection instructions and the distance to the
-/// paired device.
 struct ContentView: View {
     @ObservedObject var niManager: NearbyInteractionManager
     

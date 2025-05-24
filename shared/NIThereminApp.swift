@@ -41,8 +41,6 @@ struct WatchNIDemoApp: App {
             Group {
                 if let niManager = niManager {
                     ContentView(niManager: niManager)
-//                        .onReceive(niManager.$distance) {
-//                        }
                 } else {
                     Text("设备不支持该功能!")
                 }

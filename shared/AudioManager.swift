@@ -81,7 +81,7 @@ class AudioManager {
         engine.attach(sourceNode)
         engine.connect(sourceNode, to: engine.mainMixerNode, format: inputFormat)
         
-        // 启动引擎
+
         do {
             try engine.start()
         } catch {
@@ -89,7 +89,6 @@ class AudioManager {
         }
     }
     
-    // 更新频率
     func updateFrequency(_ frequency: Double) {
         lock.lock()
         currentFrequency = frequency
