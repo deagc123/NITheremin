@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010E29582DE17E7C00B80C96 /* NIThereminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010E29572DE17E7C00B80C96 /* NIThereminApp.swift */; };
+		010E29592DE17E7C00B80C96 /* NIThereminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010E29572DE17E7C00B80C96 /* NIThereminApp.swift */; };
 		01167BE32DD9CA9500E05309 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01167BE22DD9CA9500E05309 /* AudioManager.swift */; };
 		01167BE42DD9CA9500E05309 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01167BE22DD9CA9500E05309 /* AudioManager.swift */; };
 		92644B15261CEDCB003B6E09 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92644B14261CEDCB003B6E09 /* Helper.swift */; };
 		92644B16261CEDCB003B6E09 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92644B14261CEDCB003B6E09 /* Helper.swift */; };
 		926AE9AA261CB44C00AD6746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AE9A9261CB44C00AD6746 /* Assets.xcassets */; };
-		926AE9B2261CB44C00AD6746 /* WatchNIDemo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 926AE9B1261CB44C00AD6746 /* WatchNIDemo WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		926AE9B2261CB44C00AD6746 /* NITheremin WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 926AE9B1261CB44C00AD6746 /* NITheremin WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		926AE9B7261CB44C00AD6746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AE9B6261CB44C00AD6746 /* Assets.xcassets */; };
-		926AE9BE261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 926AE9BD261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		926AE9C9261CB44D00AD6746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AE9C8261CB44D00AD6746 /* Assets.xcassets */; };
-		927897002642D66000A6C1EE /* WatchNIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA1657261CB4B900A6C24B /* WatchNIDemoApp.swift */; };
-		92BA1659261CB4B900A6C24B /* WatchNIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA1657261CB4B900A6C24B /* WatchNIDemoApp.swift */; };
 		92BA165A261CB4BC00A6C24B /* NearbyInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA1652261CB49600A6C24B /* NearbyInteractionManager.swift */; };
 		92BA165B261CB4BD00A6C24B /* NearbyInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA1652261CB49600A6C24B /* NearbyInteractionManager.swift */; };
 		92BA165C261CB4C100A6C24B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA1653261CB49600A6C24B /* ContentView.swift */; };
@@ -32,34 +31,16 @@
 			remoteGlobalIDString = 926AE9B0261CB44C00AD6746;
 			remoteInfo = "Measure WatchKit App";
 		};
-		926AE9BF261CB44D00AD6746 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 926AE99A261CB44B00AD6746 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 926AE9BC261CB44D00AD6746;
-			remoteInfo = "Measure WatchKit Extension";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		926AE9D3261CB44D00AD6746 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				926AE9BE261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		926AE9D7261CB44D00AD6746 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				926AE9B2261CB44C00AD6746 /* WatchNIDemo WatchKit App.app in Embed Watch Content */,
+				926AE9B2261CB44C00AD6746 /* NITheremin WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,22 +48,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		010E29572DE17E7C00B80C96 /* NIThereminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIThereminApp.swift; sourceTree = "<group>"; };
 		01167BE22DD9CA9500E05309 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		7806DD7C16362DFA24E67ABD /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		92644B14261CEDCB003B6E09 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		926AE9A2261CB44B00AD6746 /* WatchNIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchNIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926AE9A2261CB44B00AD6746 /* NITheremin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NITheremin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926AE9A9261CB44C00AD6746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926AE9AE261CB44C00AD6746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		926AE9B1261CB44C00AD6746 /* WatchNIDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchNIDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926AE9B1261CB44C00AD6746 /* NITheremin WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NITheremin WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		926AE9B6261CB44C00AD6746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926AE9B8261CB44C00AD6746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		926AE9BD261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchNIDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		926AE9C8261CB44D00AD6746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926AE9CD261CB44D00AD6746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92BA1650261CB49600A6C24B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		92BA1652261CB49600A6C24B /* NearbyInteractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionManager.swift; sourceTree = "<group>"; };
 		92BA1653261CB49600A6C24B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		92BA1657261CB4B900A6C24B /* WatchNIDemoApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchNIDemoApp.swift; sourceTree = "<group>"; };
 		A937C5C51D77D909A661F645 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,9 +109,8 @@
 		926AE9A3261CB44B00AD6746 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				926AE9A2261CB44B00AD6746 /* WatchNIDemo.app */,
-				926AE9B1261CB44C00AD6746 /* WatchNIDemo WatchKit App.app */,
-				926AE9BD261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex */,
+				926AE9A2261CB44B00AD6746 /* NITheremin.app */,
+				926AE9B1261CB44C00AD6746 /* NITheremin WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,7 +148,7 @@
 				92BA1652261CB49600A6C24B /* NearbyInteractionManager.swift */,
 				01167BE22DD9CA9500E05309 /* AudioManager.swift */,
 				92BA1653261CB49600A6C24B /* ContentView.swift */,
-				92BA1657261CB4B900A6C24B /* WatchNIDemoApp.swift */,
+				010E29572DE17E7C00B80C96 /* NIThereminApp.swift */,
 				92644B14261CEDCB003B6E09 /* Helper.swift */,
 			);
 			path = shared;
@@ -187,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		926AE9A1261CB44B00AD6746 /* WatchNIDemo */ = {
+		926AE9A1261CB44B00AD6746 /* NITheremin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 926AE9D8261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "WatchNIDemo" */;
+			buildConfigurationList = 926AE9D8261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "NITheremin" */;
 			buildPhases = (
 				926AE99E261CB44B00AD6746 /* Sources */,
 				926AE99F261CB44B00AD6746 /* Frameworks */,
@@ -201,44 +180,27 @@
 			dependencies = (
 				926AE9B4261CB44C00AD6746 /* PBXTargetDependency */,
 			);
-			name = WatchNIDemo;
+			name = NITheremin;
 			productName = Measure;
-			productReference = 926AE9A2261CB44B00AD6746 /* WatchNIDemo.app */;
+			productReference = 926AE9A2261CB44B00AD6746 /* NITheremin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		926AE9B0261CB44C00AD6746 /* WatchNIDemo WatchKit App */ = {
+		926AE9B0261CB44C00AD6746 /* NITheremin WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 926AE9D4261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "WatchNIDemo WatchKit App" */;
+			buildConfigurationList = 926AE9D4261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "NITheremin WatchKit App" */;
 			buildPhases = (
 				926AE9AF261CB44C00AD6746 /* Resources */,
-				926AE9D3261CB44D00AD6746 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				926AE9C0261CB44D00AD6746 /* PBXTargetDependency */,
-			);
-			name = "WatchNIDemo WatchKit App";
-			productName = "Measure WatchKit App";
-			productReference = 926AE9B1261CB44C00AD6746 /* WatchNIDemo WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		926AE9BC261CB44D00AD6746 /* WatchNIDemo WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 926AE9D0261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "WatchNIDemo WatchKit Extension" */;
-			buildPhases = (
 				926AE9B9261CB44D00AD6746 /* Sources */,
 				926AE9BA261CB44D00AD6746 /* Frameworks */,
-				926AE9BB261CB44D00AD6746 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "WatchNIDemo WatchKit Extension";
-			productName = "Measure WatchKit Extension";
-			productReference = 926AE9BD261CB44D00AD6746 /* WatchNIDemo WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = "NITheremin WatchKit App";
+			productName = "Measure WatchKit App";
+			productReference = 926AE9B1261CB44C00AD6746 /* NITheremin WatchKit App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -246,8 +208,9 @@
 		926AE99A261CB44B00AD6746 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1630;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					926AE9A1261CB44B00AD6746 = {
@@ -257,13 +220,9 @@
 					926AE9B0261CB44C00AD6746 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					926AE9BC261CB44D00AD6746 = {
-						CreatedOnToolsVersion = 12.5;
-						LastSwiftMigration = 1300;
-					};
 				};
 			};
-			buildConfigurationList = 926AE99D261CB44B00AD6746 /* Build configuration list for PBXProject "WatchNIDemo" */;
+			buildConfigurationList = 926AE99D261CB44B00AD6746 /* Build configuration list for PBXProject "NITheremin" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -279,9 +238,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				926AE9A1261CB44B00AD6746 /* WatchNIDemo */,
-				926AE9B0261CB44C00AD6746 /* WatchNIDemo WatchKit App */,
-				926AE9BC261CB44D00AD6746 /* WatchNIDemo WatchKit Extension */,
+				926AE9A1261CB44B00AD6746 /* NITheremin */,
+				926AE9B0261CB44C00AD6746 /* NITheremin WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -299,15 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926AE9B7261CB44C00AD6746 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		926AE9BB261CB44D00AD6746 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 				926AE9C9261CB44D00AD6746 /* Assets.xcassets in Resources */,
+				926AE9B7261CB44C00AD6746 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +273,7 @@
 				92BA165C261CB4C100A6C24B /* ContentView.swift in Sources */,
 				92644B15261CEDCB003B6E09 /* Helper.swift in Sources */,
 				01167BE42DD9CA9500E05309 /* AudioManager.swift in Sources */,
-				927897002642D66000A6C1EE /* WatchNIDemoApp.swift in Sources */,
+				010E29592DE17E7C00B80C96 /* NIThereminApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				92644B16261CEDCB003B6E09 /* Helper.swift in Sources */,
-				92BA1659261CB4B900A6C24B /* WatchNIDemoApp.swift in Sources */,
 				92C2952B26335696004C9CB2 /* ContentView.swift in Sources */,
 				01167BE32DD9CA9500E05309 /* AudioManager.swift in Sources */,
+				010E29582DE17E7C00B80C96 /* NIThereminApp.swift in Sources */,
 				92BA165A261CB4BC00A6C24B /* NearbyInteractionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,13 +294,8 @@
 /* Begin PBXTargetDependency section */
 		926AE9B4261CB44C00AD6746 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 926AE9B0261CB44C00AD6746 /* WatchNIDemo WatchKit App */;
+			target = 926AE9B0261CB44C00AD6746 /* NITheremin WatchKit App */;
 			targetProxy = 926AE9B3261CB44C00AD6746 /* PBXContainerItemProxy */;
-		};
-		926AE9C0261CB44D00AD6746 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 926AE9BC261CB44D00AD6746 /* WatchNIDemo WatchKit Extension */;
-			targetProxy = 926AE9BF261CB44D00AD6746 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -391,6 +337,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -452,6 +399,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -469,77 +417,21 @@
 			};
 			name = Release;
 		};
-		926AE9D1261CB44D00AD6746 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7806DD7C16362DFA24E67ABD /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3Q5MK3AC73;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				INFOPLIST_FILE = "WatchNIDemo WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		926AE9D2261CB44D00AD6746 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7806DD7C16362DFA24E67ABD /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3Q5MK3AC73;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				INFOPLIST_FILE = "WatchNIDemo WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
 		926AE9D5261CB44D00AD6746 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7806DD7C16362DFA24E67ABD /* SampleCode.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				IBSC_MODULE = WatchNIDemo_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchNIDemo WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -555,15 +447,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7806DD7C16362DFA24E67ABD /* SampleCode.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				IBSC_MODULE = WatchNIDemo_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchNIDemo WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -585,7 +479,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = WatchNIDemo/Info.plist;
@@ -613,7 +506,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = WatchNIDemo/Info.plist;
@@ -635,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		926AE99D261CB44B00AD6746 /* Build configuration list for PBXProject "WatchNIDemo" */ = {
+		926AE99D261CB44B00AD6746 /* Build configuration list for PBXProject "NITheremin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				926AE9CE261CB44D00AD6746 /* Debug */,
@@ -644,16 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		926AE9D0261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "WatchNIDemo WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				926AE9D1261CB44D00AD6746 /* Debug */,
-				926AE9D2261CB44D00AD6746 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		926AE9D4261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "WatchNIDemo WatchKit App" */ = {
+		926AE9D4261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "NITheremin WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				926AE9D5261CB44D00AD6746 /* Debug */,
@@ -662,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		926AE9D8261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "WatchNIDemo" */ = {
+		926AE9D8261CB44D00AD6746 /* Build configuration list for PBXNativeTarget "NITheremin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				926AE9D9261CB44D00AD6746 /* Debug */,

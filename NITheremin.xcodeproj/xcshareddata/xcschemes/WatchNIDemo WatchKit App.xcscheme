@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1400"
+   LastUpgradeVersion = "1630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "926AE9B0261CB44C00AD6746"
-               BuildableName = "WatchNIDemo WatchKit App.app"
-               BlueprintName = "WatchNIDemo WatchKit App"
-               ReferencedContainer = "container:WatchNIDemo.xcodeproj">
+               BuildableName = "NITheremin WatchKit App.app"
+               BlueprintName = "NITheremin WatchKit App"
+               ReferencedContainer = "container:NITheremin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "926AE9A1261CB44B00AD6746"
-               BuildableName = "WatchNIDemo.app"
-               BlueprintName = "WatchNIDemo"
-               ReferencedContainer = "container:WatchNIDemo.xcodeproj">
+               BuildableName = "NITheremin.app"
+               BlueprintName = "NITheremin"
+               ReferencedContainer = "container:NITheremin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "926AE9B0261CB44C00AD6746"
-            BuildableName = "WatchNIDemo WatchKit App.app"
-            BlueprintName = "WatchNIDemo WatchKit App"
-            ReferencedContainer = "container:WatchNIDemo.xcodeproj">
+            BuildableName = "NITheremin WatchKit App.app"
+            BlueprintName = "NITheremin WatchKit App"
+            ReferencedContainer = "container:NITheremin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "926AE9B0261CB44C00AD6746"
-            BuildableName = "WatchNIDemo WatchKit App.app"
-            BlueprintName = "WatchNIDemo WatchKit App"
-            ReferencedContainer = "container:WatchNIDemo.xcodeproj">
+            BuildableName = "NITheremin WatchKit App.app"
+            BlueprintName = "NITheremin WatchKit App"
+            ReferencedContainer = "container:NITheremin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

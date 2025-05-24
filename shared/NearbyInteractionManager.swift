@@ -14,7 +14,7 @@ import os.log
 class NearbyInteractionManager: NSObject, ObservableObject {
     
     /// The distance to the nearby object (the paired device) in meters.
-    @Published var distance: Measurement<UnitLength>?
+    @Published var distance: Double?
     
     private var didSendDiscoveryToken: Bool = false
     
@@ -109,7 +109,7 @@ extension NearbyInteractionManager: NISessionDelegate {
     func session(_ session: NISession, didUpdate nearbyObjects: [NINearbyObject]) {
         if let object = nearbyObjects.first, let distance = object.distance {
             os_log("object distance: \(distance) meters")
-            self.distance = Measurement(value: Double(distance), unit: .meters)
+            self.distance = Double(distance)
         }
     }
     

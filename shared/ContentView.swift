@@ -10,20 +10,15 @@ import SwiftUI
 /// The main view that displays connection instructions and the distance to the
 /// paired device.
 struct ContentView: View {
-    
     @ObservedObject var niManager: NearbyInteractionManager
     
     #if os(watchOS)
-    let connectionDirections = "Open the app on your phone to connect"
-    #else
-    let connectionDirections = "Open the app on your watch to connect"
-    #endif
-    
+    let connectionDirections = "请连接手机应用"
     var body: some View {
         VStack(spacing: 10) {
             if niManager.isConnected {
-                if let distance = niManager.distance?.converted(to: Helper.localUnits) {
-                    Text(Helper.localFormatter.string(from: distance)).font(.title)
+                if let distance = niManager.distance {
+                    Text("distance\(distance)")
                 } else {
                     Text("-")
                 }
@@ -32,4 +27,47 @@ struct ContentView: View {
             }
         }
     }
-}
+    #else
+    private let audioManager = AudioManager()
+    @State private var frequency: Double = 440.0
+    let connectionDirections = "请连接手表应用"
+    
+    
+    var body: some View {
+        if #available(iOS 17.0, *) {
+            VStack(spacing: 10) {
+                if niManager.isConnected {
+                    if let distance = niManager.distance {
+                        Text("distance\(distance)")
+                    } else {
+                        Text("-")
+                    }
+                } else {
+                    Text(connectionDirections)
+                }
+                
+            }
+            .onChange(of: niManager.distance) {
+                let frequency = niManager.distance!*1000
+                audioManager.updateFrequency(frequency)
+            }
+        } else {
+            VStack(spacing: 10) {
+                if niManager.isConnected {
+                    if let distance = niManager.distance {
+                        Text("distance\(distance)")
+                    } else {
+                        Text("-")
+                    }
+                } else {
+                    Text(connectionDirections)
+                }
+                
+            }
+            .onChange(of: niManager.distance!) { newValue in
+                audioManager.updateFrequency(newValue)
+                
+            }
+        }
+    }
+#endif
