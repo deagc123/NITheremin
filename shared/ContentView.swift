@@ -12,7 +12,7 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var niManager: NearbyInteractionManager
     
-    #if os(watchOS)
+#if os(watchOS)
     let connectionDirections = "请连接手机应用"
     var body: some View {
         VStack(spacing: 10) {
@@ -27,7 +27,7 @@ struct ContentView: View {
             }
         }
     }
-    #else
+#else
     private let audioManager = AudioManager()
     @State private var frequency: Double = 440.0
     let connectionDirections = "请连接手表应用"
@@ -70,4 +70,5 @@ struct ContentView: View {
             }
         }
     }
-#endif
+    #endif
+}
