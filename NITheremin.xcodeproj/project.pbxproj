@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01167BE32DD9CA9500E05309 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01167BE22DD9CA9500E05309 /* AudioManager.swift */; };
+		01167BE42DD9CA9500E05309 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01167BE22DD9CA9500E05309 /* AudioManager.swift */; };
 		92644B15261CEDCB003B6E09 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92644B14261CEDCB003B6E09 /* Helper.swift */; };
 		92644B16261CEDCB003B6E09 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92644B14261CEDCB003B6E09 /* Helper.swift */; };
 		926AE9AA261CB44C00AD6746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AE9A9261CB44C00AD6746 /* Assets.xcassets */; };
@@ -65,7 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7806DD7C16362DFA24E67ABD /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		01167BE22DD9CA9500E05309 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		7806DD7C16362DFA24E67ABD /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		92644B14261CEDCB003B6E09 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		926AE9A2261CB44B00AD6746 /* WatchNIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchNIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926AE9A9261CB44C00AD6746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +83,7 @@
 		92BA1652261CB49600A6C24B /* NearbyInteractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionManager.swift; sourceTree = "<group>"; };
 		92BA1653261CB49600A6C24B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92BA1657261CB4B900A6C24B /* WatchNIDemoApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchNIDemoApp.swift; sourceTree = "<group>"; };
-		A937C5C51D77D909A661F645 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		A937C5C51D77D909A661F645 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				92BA1652261CB49600A6C24B /* NearbyInteractionManager.swift */,
+				01167BE22DD9CA9500E05309 /* AudioManager.swift */,
 				92BA1653261CB49600A6C24B /* ContentView.swift */,
 				92BA1657261CB4B900A6C24B /* WatchNIDemoApp.swift */,
 				92644B14261CEDCB003B6E09 /* Helper.swift */,
@@ -268,6 +272,9 @@
 				Base,
 			);
 			mainGroup = 926AE999261CB44B00AD6746;
+			packageReferences = (
+				01167BE52DD9CEFC00E05309 /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = 926AE9A3261CB44B00AD6746 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -314,6 +321,7 @@
 				92BA165B261CB4BD00A6C24B /* NearbyInteractionManager.swift in Sources */,
 				92BA165C261CB4C100A6C24B /* ContentView.swift in Sources */,
 				92644B15261CEDCB003B6E09 /* Helper.swift in Sources */,
+				01167BE42DD9CA9500E05309 /* AudioManager.swift in Sources */,
 				927897002642D66000A6C1EE /* WatchNIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +333,7 @@
 				92644B16261CEDCB003B6E09 /* Helper.swift in Sources */,
 				92BA1659261CB4B900A6C24B /* WatchNIDemoApp.swift in Sources */,
 				92C2952B26335696004C9CB2 /* ContentView.swift in Sources */,
+				01167BE32DD9CA9500E05309 /* AudioManager.swift in Sources */,
 				92BA165A261CB4BC00A6C24B /* NearbyInteractionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,7 +477,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = "WatchNIDemo WatchKit Extension/Info.plist";
@@ -477,7 +486,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchNIDemo${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -497,7 +506,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = "WatchNIDemo WatchKit Extension/Info.plist";
@@ -506,7 +515,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchNIDemo${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -527,11 +536,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				IBSC_MODULE = WatchNIDemo_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchNIDemo WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchNIDemo${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -551,11 +560,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				IBSC_MODULE = WatchNIDemo_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchNIDemo WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchNIDemo${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -576,7 +585,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = WatchNIDemo/Info.plist;
@@ -585,7 +594,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchNIDemo${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -604,7 +613,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3Q5MK3AC73;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = WatchNIDemo/Info.plist;
@@ -613,7 +622,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.WatchNIDemo${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -663,6 +672,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01167BE52DD9CEFC00E05309 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 926AE99A261CB44B00AD6746 /* Project object */;
 }
