@@ -11,6 +11,8 @@
 		010E29592DE17E7C00B80C96 /* NIThereminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010E29572DE17E7C00B80C96 /* NIThereminApp.swift */; };
 		01167BE32DD9CA9500E05309 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01167BE22DD9CA9500E05309 /* AudioManager.swift */; };
 		01167BE42DD9CA9500E05309 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01167BE22DD9CA9500E05309 /* AudioManager.swift */; };
+		01CC73742DE3224D0064F426 /* UIAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CC73732DE3224D0064F426 /* UIAudioManager.swift */; };
+		01CC73752DE3224D0064F426 /* UIAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CC73732DE3224D0064F426 /* UIAudioManager.swift */; };
 		92644B15261CEDCB003B6E09 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92644B14261CEDCB003B6E09 /* Helper.swift */; };
 		92644B16261CEDCB003B6E09 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92644B14261CEDCB003B6E09 /* Helper.swift */; };
 		926AE9AA261CB44C00AD6746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AE9A9261CB44C00AD6746 /* Assets.xcassets */; };
@@ -50,6 +52,7 @@
 /* Begin PBXFileReference section */
 		010E29572DE17E7C00B80C96 /* NIThereminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIThereminApp.swift; sourceTree = "<group>"; };
 		01167BE22DD9CA9500E05309 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		01CC73732DE3224D0064F426 /* UIAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAudioManager.swift; sourceTree = "<group>"; };
 		7806DD7C16362DFA24E67ABD /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		92644B14261CEDCB003B6E09 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		926AE9A2261CB44B00AD6746 /* NITheremin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NITheremin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +151,7 @@
 				92BA1652261CB49600A6C24B /* NearbyInteractionManager.swift */,
 				01167BE22DD9CA9500E05309 /* AudioManager.swift */,
 				92BA1653261CB49600A6C24B /* ContentView.swift */,
+				01CC73732DE3224D0064F426 /* UIAudioManager.swift */,
 				010E29572DE17E7C00B80C96 /* NIThereminApp.swift */,
 				92644B14261CEDCB003B6E09 /* Helper.swift */,
 			);
@@ -271,6 +275,7 @@
 			files = (
 				92BA165B261CB4BD00A6C24B /* NearbyInteractionManager.swift in Sources */,
 				92BA165C261CB4C100A6C24B /* ContentView.swift in Sources */,
+				01CC73752DE3224D0064F426 /* UIAudioManager.swift in Sources */,
 				92644B15261CEDCB003B6E09 /* Helper.swift in Sources */,
 				01167BE42DD9CA9500E05309 /* AudioManager.swift in Sources */,
 				010E29592DE17E7C00B80C96 /* NIThereminApp.swift in Sources */,
@@ -283,6 +288,7 @@
 			files = (
 				92644B16261CEDCB003B6E09 /* Helper.swift in Sources */,
 				92C2952B26335696004C9CB2 /* ContentView.swift in Sources */,
+				01CC73742DE3224D0064F426 /* UIAudioManager.swift in Sources */,
 				01167BE32DD9CA9500E05309 /* AudioManager.swift in Sources */,
 				010E29582DE17E7C00B80C96 /* NIThereminApp.swift in Sources */,
 				92BA165A261CB4BC00A6C24B /* NearbyInteractionManager.swift in Sources */,
@@ -426,13 +432,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 822J29CB3M;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = "WatchNIDemo WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BDX.NITherminor.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -452,13 +459,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 822J29CB3M;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = "WatchNIDemo WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BDX.NITherminor.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -479,6 +487,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 822J29CB3M;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = WatchNIDemo/Info.plist;
@@ -487,7 +496,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BDX.NITherminor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -506,6 +515,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 822J29CB3M;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = WatchNIDemo/Info.plist;
@@ -514,7 +524,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bistu.deagc123.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BDX.NITherminor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
